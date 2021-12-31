@@ -12,7 +12,7 @@ npm i unplugin-vue-components -D
 yarn add unplugin-vue-components -D
 `),s("span",{class:"hljs-meta"},`
 #`),s("span",{class:"bash"}," pnpm"),n(`
-pnpm add babel-plugin-import -D
+pnpm add unplugin-vue-components -D
 `)])],-1),y=s("h4",null,"Vue Cli",-1),w=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-comment"},"// vue.config.js"),n(`
 `),s("span",{class:"hljs-keyword"},"const"),n(" Components = "),s("span",{class:"hljs-built_in"},"require"),n("("),s("span",{class:"hljs-string"},"'unplugin-vue-components/webpack'"),n(`)
 `),s("span",{class:"hljs-keyword"},"const"),n(" { VarletUIResolver } = "),s("span",{class:"hljs-built_in"},"require"),n("("),s("span",{class:"hljs-string"},"'unplugin-vue-components/resolvers'"),n(`)
