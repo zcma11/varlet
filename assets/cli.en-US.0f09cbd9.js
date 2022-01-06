@@ -69,7 +69,7 @@ pnpm dev
     },
   },
 }
-`)])],-1),D={class:"card"},N=t("h3",null,"Commands Intro",-1),B=t("h4",null,"Start the development server",-1),M=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli dev
+`)])],-1),D={class:"card"},B=t("h3",null,"Commands Intro",-1),M=t("h4",null,"Start the development server",-1),N=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli dev
 `)])],-1),U=t("h4",null,"Build documentation site",-1),I=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli build
 `)])],-1),P=t("h4",null,"Preview documentation site",-1),V=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli preview
 `)])],-1),A=t("h4",null,"Build component library code",-1),L=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli compile
@@ -79,17 +79,16 @@ or
 varlet-cli test -wa
 `)])],-1),z=t("h4",null,"Lint code",-1),G=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli lint
 `)])],-1),R=t("h4",null,"Lint commit message",-1),H=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli commit-lint
-`)])],-1),Q=t("h4",null,"Generate changelog",-1),W=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli changelog
-`)])],-1),J=t("h4",null,"Release component library",-1),q=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli release
-`)])],-1),K=t("h4",null,"Quickly create a component folder",-1),X=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli create <componentName>
-`)])],-1),Y=t("h4",null,"Generate a project template",-1),Z=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli gen <projectName>
-`)])],-1),tt={class:"card"},st=t("h3",null,"babel",-1),et=t("p",null,[s("To configure "),t("code",null,"babel"),s(", first specify the target browser in "),t("code",null,"package.json")],-1),lt=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`{
+`)])],-1),W=t("h4",null,"Generate changelog",-1),J=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli changelog
+`)])],-1),Q=t("h4",null,"Release component library",-1),q=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli release
+`)])],-1),K=t("h4",null,"Generate a project template",-1),X=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli gen <projectName>
+`)])],-1),Y={class:"card"},Z=t("h3",null,"babel",-1),tt=t("p",null,[s("To configure "),t("code",null,"babel"),s(", first specify the target browser in "),t("code",null,"package.json")],-1),st=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`{
   `),t("span",{class:"hljs-attr"},'"browserslist"'),s(`: [
     `),t("span",{class:"hljs-string"},'"Chrome >= 51"'),s(`,
     `),t("span",{class:"hljs-string"},'"iOS >= 10"'),s(`
   ]
 }
-`)])],-1),nt=t("p",null,[s("create "),t("code",null,"babel.config,js")],-1),ot=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-comment"},"// babel.config.js"),s(`
+`)])],-1),et=t("p",null,[s("create "),t("code",null,"babel.config,js")],-1),lt=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-comment"},"// babel.config.js"),s(`
 `),t("span",{class:"hljs-built_in"},"module"),s(`.exports = {
   `),t("span",{class:"hljs-attr"},"presets"),s(`: [
     [
@@ -100,7 +99,7 @@ varlet-cli test -wa
     ],
   ],
 }
-`)])],-1),at={class:"card"},ct=o("<h3>git and npm</h3><h4>git-hook</h4><p><code>husky</code>, <code>lint-staged</code> cooperate with <code>eslint</code>, <code>stylelint</code>, <code>varlet-cli commit-lint</code> to check before commit, <code>package.json</code> configuration is as follows</p>",3),dt=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`{
+`)])],-1),nt={class:"card"},ot=o("<h3>git and npm</h3><h4>git-hook</h4><p><code>husky</code>, <code>lint-staged</code> cooperate with <code>eslint</code>, <code>stylelint</code>, <code>varlet-cli commit-lint</code> to check before commit, <code>package.json</code> configuration is as follows</p>",3),at=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`{
   `),t("span",{class:"hljs-attr"},'"scripts"'),s(`: {
     `),t("span",{class:"hljs-attr"},'"prepare"'),s(": "),t("span",{class:"hljs-string"},'"husky install"'),s(`
   },
@@ -137,7 +136,7 @@ varlet-cli test -wa
     ]
   }
 }
-`)])],-1),rt=t("p",null,[s("create "),t("code",null,".prettierignore")],-1),it=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`// .prettierignore
+`)])],-1),ct=t("p",null,[s("create "),t("code",null,".prettierignore")],-1),dt=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`// .prettierignore
 coverage/**
 es/**
 umd/**
@@ -145,7 +144,7 @@ site/**
 public/**
 src/*/__tests__/**
 *.md
-`)])],-1),ht={class:"card"},pt=t("h3",null,"typescript",-1),ut=t("p",null,[s("create "),t("code",null,"tsconfig.json")],-1),mt=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`{
+`)])],-1),rt={class:"card"},it=t("h3",null,"typescript",-1),ht=t("p",null,[s("create "),t("code",null,"tsconfig.json")],-1),pt=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`{
   `),t("span",{class:"hljs-attr"},'"compilerOptions"'),s(`: {
     `),t("span",{class:"hljs-attr"},'"strict"'),s(": "),t("span",{class:"hljs-literal"},"true"),s(`,
     `),t("span",{class:"hljs-attr"},'"downlevelIteration"'),s(": "),t("span",{class:"hljs-literal"},"true"),s(`,
@@ -158,4 +157,4 @@ src/*/__tests__/**
     `),t("span",{class:"hljs-attr"},'"jsx"'),s(": "),t("span",{class:"hljs-string"},'"preserve"'),s(`
   }
 }
-`)])],-1),gt=t("h4",null,"Note before release",-1),jt=t("ul",null,[t("li",null,"1.The registry of npm must set to the official npm mirror"),t("li",null,"2.The npm must execute the login command for user login")],-1);function _t(ft,bt,yt,vt,kt,xt){const e=c("var-site-code-example");return d(),r("div",h,[p,t("div",u,[m,g,l(e,null,{default:n(()=>[j]),_:1}),_]),f,t("div",b,[y,l(e,null,{default:n(()=>[v]),_:1}),k,l(e,null,{default:n(()=>[x]),_:1}),w,l(e,null,{default:n(()=>[S]),_:1}),T,l(e,null,{default:n(()=>[C]),_:1})]),t("div",D,[N,B,l(e,null,{default:n(()=>[M]),_:1}),U,l(e,null,{default:n(()=>[I]),_:1}),P,l(e,null,{default:n(()=>[V]),_:1}),A,l(e,null,{default:n(()=>[L]),_:1}),O,l(e,null,{default:n(()=>[E]),_:1}),F,l(e,null,{default:n(()=>[$]),_:1}),z,l(e,null,{default:n(()=>[G]),_:1}),R,l(e,null,{default:n(()=>[H]),_:1}),Q,l(e,null,{default:n(()=>[W]),_:1}),J,l(e,null,{default:n(()=>[q]),_:1}),K,l(e,null,{default:n(()=>[X]),_:1}),Y,l(e,null,{default:n(()=>[Z]),_:1})]),t("div",tt,[st,et,l(e,null,{default:n(()=>[lt]),_:1}),nt,l(e,null,{default:n(()=>[ot]),_:1})]),t("div",at,[ct,l(e,null,{default:n(()=>[dt]),_:1}),rt,l(e,null,{default:n(()=>[it]),_:1})]),t("div",ht,[pt,ut,l(e,null,{default:n(()=>[mt]),_:1}),gt,jt])])}var Tt=a(i,[["render",_t]]);export{Tt as default};
+`)])],-1),ut=t("h4",null,"Note before release",-1),mt=t("ul",null,[t("li",null,"1.The registry of npm must set to the official npm mirror"),t("li",null,"2.The npm must execute the login command for user login")],-1);function gt(jt,_t,ft,bt,yt,vt){const e=c("var-site-code-example");return d(),r("div",h,[p,t("div",u,[m,g,l(e,null,{default:n(()=>[j]),_:1}),_]),f,t("div",b,[y,l(e,null,{default:n(()=>[v]),_:1}),k,l(e,null,{default:n(()=>[x]),_:1}),w,l(e,null,{default:n(()=>[S]),_:1}),T,l(e,null,{default:n(()=>[C]),_:1})]),t("div",D,[B,M,l(e,null,{default:n(()=>[N]),_:1}),U,l(e,null,{default:n(()=>[I]),_:1}),P,l(e,null,{default:n(()=>[V]),_:1}),A,l(e,null,{default:n(()=>[L]),_:1}),O,l(e,null,{default:n(()=>[E]),_:1}),F,l(e,null,{default:n(()=>[$]),_:1}),z,l(e,null,{default:n(()=>[G]),_:1}),R,l(e,null,{default:n(()=>[H]),_:1}),W,l(e,null,{default:n(()=>[J]),_:1}),Q,l(e,null,{default:n(()=>[q]),_:1}),K,l(e,null,{default:n(()=>[X]),_:1})]),t("div",Y,[Z,tt,l(e,null,{default:n(()=>[st]),_:1}),et,l(e,null,{default:n(()=>[lt]),_:1})]),t("div",nt,[ot,l(e,null,{default:n(()=>[at]),_:1}),ct,l(e,null,{default:n(()=>[dt]),_:1})]),t("div",rt,[it,ht,l(e,null,{default:n(()=>[pt]),_:1}),ut,mt])])}var wt=a(i,[["render",gt]]);export{wt as default};
