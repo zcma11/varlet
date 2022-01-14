@@ -43,7 +43,7 @@ createApp().use(Slider)
   `),s("span",{class:"hljs-attr"},"label-text-color"),l("="),s("span",{class:"hljs-string"},'"#ededed"'),l(`
 />`)]),l(`
 `)])],-1),O={class:"card"},R=s("h3",null,"Custom Button",-1),q=s("p",null,[l("The props such as "),s("code",null,"label-visible"),l(", "),s("code",null,"label-text-color"),l(", "),s("code",null,"thumb-size"),l(" are invalid when using slot custom buttons.")],-1),G=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-tag"},[l("<"),s("span",{class:"hljs-name"},"var-slider"),l(),s("span",{class:"hljs-attr"},"v-model"),l("="),s("span",{class:"hljs-string"},'"value"'),l(),s("span",{class:"hljs-attr"},"range"),l(),s("span",{class:"hljs-attr"},"active-color"),l("="),s("span",{class:"hljs-string"},'"#52af77"'),l(">")]),l(`
-  `),s("span",{class:"hljs-tag"},[l("<"),s("span",{class:"hljs-name"},"template"),l(" #"),s("span",{class:"hljs-attr"},"button"),l("="),s("span",{class:"hljs-string"},'"currentValue"'),l(">")]),l(`
+  `),s("span",{class:"hljs-tag"},[l("<"),s("span",{class:"hljs-name"},"template"),l(" #"),s("span",{class:"hljs-attr"},"button"),l("="),s("span",{class:"hljs-string"},'"{ currentValue }"'),l(">")]),l(`
     `),s("span",{class:"hljs-tag"},[l("<"),s("span",{class:"hljs-name"},"div"),l(),s("span",{class:"hljs-attr"},"class"),l("="),s("span",{class:"hljs-string"},'"slider-example_block"'),l(">")]),l("{{ currentValue }}"),s("span",{class:"hljs-tag"},[l("</"),s("span",{class:"hljs-name"},"div"),l(">")]),l(`
   `),s("span",{class:"hljs-tag"},[l("</"),s("span",{class:"hljs-name"},"template"),l(">")]),l(`
 `),s("span",{class:"hljs-tag"},[l("</"),s("span",{class:"hljs-name"},"var-slider"),l(">")]),l(`
