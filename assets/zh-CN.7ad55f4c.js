@@ -8,7 +8,7 @@ createApp().use(DatePicker)
 `),t("span",{class:"hljs-keyword"},"export"),s(),t("span",{class:"hljs-keyword"},"default"),s(` {
   `),t("span",{class:"hljs-function"},[t("span",{class:"hljs-title"},"setup"),s("("),t("span",{class:"hljs-params"}),s(")")]),s(` {
     `),t("span",{class:"hljs-keyword"},"const"),s(" date = ref("),t("span",{class:"hljs-string"},"'2021-04-08'"),s(`)
-    
+
     `),t("span",{class:"hljs-keyword"},"return"),s(` {
       date
     }
@@ -16,11 +16,11 @@ createApp().use(DatePicker)
 }
 `)])],-1),v={class:"card"},w=t("h3",null,"\u6708\u4EFD\u9009\u62E9\u5668",-1),b=t("p",null,[s("\u4F7F\u7528 "),t("code",null,"type"),s(" \u5C5E\u6027\u5207\u6362\u9009\u62E9\u5668\u7684\u7C7B\u578B\uFF0C"),t("code",null,"type"),s(" \u9ED8\u8BA4\u503C\u4E3A "),t("code",null,"date")],-1),x=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[s("<"),t("span",{class:"hljs-name"},"var-date-picker"),s(),t("span",{class:"hljs-attr"},"type"),s("="),t("span",{class:"hljs-string"},'"month"'),s(),t("span",{class:"hljs-attr"},"v-model"),s("="),t("span",{class:"hljs-string"},'"date"'),s(),t("span",{class:"hljs-attr"},"shadow"),s(" />")]),s(`
 `)])],-1),Y={class:"card"},D=t("h3",null,"\u591A\u9009",-1),z=t("p",null,[s("\u901A\u8FC7 "),t("code",null,"multiple"),s(" \u5C5E\u6027\u9009\u62E9\u591A\u4E2A\u65E5\u671F\uFF0C\u6B64\u65F6 "),t("code",null,"date"),s(" \u4E3A\u4E00\u4E2A\u6570\u7EC4\u3002")],-1),M=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[s("<"),t("span",{class:"hljs-name"},"var-date-picker"),s(),t("span",{class:"hljs-attr"},"v-model"),s("="),t("span",{class:"hljs-string"},'"date"'),s(),t("span",{class:"hljs-attr"},"multiple"),s(" />")]),s(`
-`)])],-1),I={class:"card"},N=t("h3",null,"\u9009\u62E9\u8303\u56F4",-1),S=t("p",null,[s("\u901A\u8FC7 "),t("code",null,"range"),s(" \u5C5E\u6027\u9009\u62E9\u4E00\u4E2A\u65E5\u671F\u8303\u56F4\uFF0C\u6B64\u65F6 "),t("code",null,"date"),s(" \u4E3A "),t("code",null,"[startDate, endDate]"),s("\u3002")],-1),C=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[s("<"),t("span",{class:"hljs-name"},"var-date-picker"),s(),t("span",{class:"hljs-attr"},"type"),s("="),t("span",{class:"hljs-string"},'"date"'),s(),t("span",{class:"hljs-attr"},"v-model"),s("="),t("span",{class:"hljs-string"},'"date"'),s(),t("span",{class:"hljs-attr"},"range"),s(">")]),s(`
-`)])],-1),P={class:"card"},V=t("h3",null,"\u65E5\u671F\u9650\u5236",-1),$=t("p",null,[s("\u901A\u8FC7 "),t("code",null,"min"),s(" \u548C "),t("code",null,"max"),s(" \u5C5E\u6027\u6765\u63A7\u5236\u53EF\u9009\u62E9\u7684\u65E5\u671F\u8303\u56F4\uFF0C\u4F7F\u7528 "),t("code",null,"allowed-dates"),s(" \u5C5E\u6027\u9650\u5236\u53EF\u4EE5\u9009\u62E9\u7684\u65E5\u671F\u3002")],-1),A=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[s("<"),t("span",{class:"hljs-name"},"var-date-picker"),s(` 
-  `),t("span",{class:"hljs-attr"},"v-model"),s("="),t("span",{class:"hljs-string"},'"date"'),s(` 
+`)])],-1),I={class:"card"},N=t("h3",null,"\u9009\u62E9\u8303\u56F4",-1),S=t("p",null,[s("\u901A\u8FC7 "),t("code",null,"range"),s(" \u5C5E\u6027\u9009\u62E9\u4E00\u4E2A\u65E5\u671F\u8303\u56F4\uFF0C\u6B64\u65F6 "),t("code",null,"date"),s(" \u4E3A "),t("code",null,"[startDate, endDate]"),s("\u3002")],-1),C=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[s("<"),t("span",{class:"hljs-name"},"var-date-picker"),s(),t("span",{class:"hljs-attr"},"type"),s("="),t("span",{class:"hljs-string"},'"date"'),s(),t("span",{class:"hljs-attr"},"v-model"),s("="),t("span",{class:"hljs-string"},'"date"'),s(),t("span",{class:"hljs-attr"},"range"),s(" />")]),s(`
+`)])],-1),P={class:"card"},V=t("h3",null,"\u65E5\u671F\u9650\u5236",-1),$=t("p",null,[s("\u901A\u8FC7 "),t("code",null,"min"),s(" \u548C "),t("code",null,"max"),s(" \u5C5E\u6027\u6765\u63A7\u5236\u53EF\u9009\u62E9\u7684\u65E5\u671F\u8303\u56F4\uFF0C\u4F7F\u7528 "),t("code",null,"allowed-dates"),s(" \u5C5E\u6027\u9650\u5236\u53EF\u4EE5\u9009\u62E9\u7684\u65E5\u671F\u3002")],-1),A=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[s("<"),t("span",{class:"hljs-name"},"var-date-picker"),s(`
+  `),t("span",{class:"hljs-attr"},"v-model"),s("="),t("span",{class:"hljs-string"},'"date"'),s(`
   `),t("span",{class:"hljs-attr"},"min"),s("="),t("span",{class:"hljs-string"},'"2020-10-15"'),s(`
-  `),t("span",{class:"hljs-attr"},"max"),s("="),t("span",{class:"hljs-string"},'"2021-01-15"'),s(` 
+  `),t("span",{class:"hljs-attr"},"max"),s("="),t("span",{class:"hljs-string"},'"2021-01-15"'),s(`
   `),t("span",{class:"hljs-attr"},":allowed-dates"),s("="),t("span",{class:"hljs-string"},'"allowedDates"'),s(`
 />`)]),s(`
 `)])],-1),B=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-keyword"},"import"),s(" { ref } "),t("span",{class:"hljs-keyword"},"from"),s(),t("span",{class:"hljs-string"},"'vue'"),s(`
@@ -32,7 +32,7 @@ createApp().use(DatePicker)
     `),t("span",{class:"hljs-keyword"},"const"),s(" allowedDates = "),t("span",{class:"hljs-function"},[s("("),t("span",{class:"hljs-params"},"val"),s(") =>")]),s(` {
       `),t("span",{class:"hljs-keyword"},"return"),s(),t("span",{class:"hljs-built_in"},"parseInt"),s("(val.split("),t("span",{class:"hljs-string"},"'-'"),s(")["),t("span",{class:"hljs-number"},"2"),s("], "),t("span",{class:"hljs-number"},"10"),s(") % "),t("span",{class:"hljs-number"},"2"),s(" === "),t("span",{class:"hljs-number"},"1"),s(`
     }
-    
+
     `),t("span",{class:"hljs-keyword"},"return"),s(` {
       date,
       allowedDates,
@@ -71,7 +71,7 @@ createApp().use(DatePicker)
     `),t("span",{class:"hljs-keyword"},"const"),s(" change = "),t("span",{class:"hljs-function"},[s("("),t("span",{class:"hljs-params"},"date"),s(") =>")]),s(` {
       `),t("span",{class:"hljs-built_in"},"console"),s(`.log(date)
     }
-    
+
     `),t("span",{class:"hljs-keyword"},"return"),s(` {
       date,
       change,

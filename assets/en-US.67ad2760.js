@@ -8,7 +8,7 @@ createApp().use(DatePicker)
 `),t("span",{class:"hljs-keyword"},"export"),e(),t("span",{class:"hljs-keyword"},"default"),e(` {
   `),t("span",{class:"hljs-function"},[t("span",{class:"hljs-title"},"setup"),e("("),t("span",{class:"hljs-params"}),e(")")]),e(` {
     `),t("span",{class:"hljs-keyword"},"const"),e(" date = ref("),t("span",{class:"hljs-string"},"'2021-04-08'"),e(`)
-    
+
     `),t("span",{class:"hljs-keyword"},"return"),e(` {
       date
     }
@@ -16,11 +16,11 @@ createApp().use(DatePicker)
 }
 `)])],-1),w={class:"card"},v=t("h3",null,"Month Picker",-1),b=t("p",null,[e("Use "),t("code",null,"type"),e(" prop to change the type of the picker. The default value of "),t("code",null,"type"),e(" is "),t("code",null,"date"),e(".")],-1),x=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[e("<"),t("span",{class:"hljs-name"},"var-date-picker"),e(),t("span",{class:"hljs-attr"},"type"),e("="),t("span",{class:"hljs-string"},'"month"'),e(),t("span",{class:"hljs-attr"},"v-model"),e("="),t("span",{class:"hljs-string"},'"date"'),e(),t("span",{class:"hljs-attr"},"shadow"),e(" />")]),e(`
 `)])],-1),Y={class:"card"},D=t("h3",null,"Multiple",-1),S=t("p",null,[e("Use "),t("code",null,"multiple"),e(" prop to select multiple dates, at this time, "),t("code",null,"date"),e(" is an array.")],-1),M=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[e("<"),t("span",{class:"hljs-name"},"var-date-picker"),e(),t("span",{class:"hljs-attr"},"v-model"),e("="),t("span",{class:"hljs-string"},'"date"'),e(),t("span",{class:"hljs-attr"},"multiple"),e(" />")]),e(`
-`)])],-1),z={class:"card"},I=t("h3",null,"Range",-1),P=t("p",null,[e("Use "),t("code",null,"range"),e(" prop to select date range, at this time, "),t("code",null,"date"),e(" is "),t("code",null,"[startDate, endDate]"),e(".")],-1),C=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[e("<"),t("span",{class:"hljs-name"},"var-date-picker"),e(),t("span",{class:"hljs-attr"},"type"),e("="),t("span",{class:"hljs-string"},'"date"'),e(),t("span",{class:"hljs-attr"},"v-model"),e("="),t("span",{class:"hljs-string"},'"date"'),e(),t("span",{class:"hljs-attr"},"range"),e(">")]),e(`
-`)])],-1),U={class:"card"},V=t("h3",null,"Date Limit",-1),A=t("p",null,[e("Use "),t("code",null,"min"),e(" and "),t("code",null,"max"),e(" prop to allow the maximum and minimum date, and use "),t("code",null,"allowed-dates"),e(" prop to limit the dates that can be selected.")],-1),N=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[e("<"),t("span",{class:"hljs-name"},"var-date-picker"),e(` 
-  `),t("span",{class:"hljs-attr"},"v-model"),e("="),t("span",{class:"hljs-string"},'"date"'),e(` 
+`)])],-1),z={class:"card"},I=t("h3",null,"Range",-1),P=t("p",null,[e("Use "),t("code",null,"range"),e(" prop to select date range, at this time, "),t("code",null,"date"),e(" is "),t("code",null,"[startDate, endDate]"),e(".")],-1),C=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[e("<"),t("span",{class:"hljs-name"},"var-date-picker"),e(),t("span",{class:"hljs-attr"},"type"),e("="),t("span",{class:"hljs-string"},'"date"'),e(),t("span",{class:"hljs-attr"},"v-model"),e("="),t("span",{class:"hljs-string"},'"date"'),e(),t("span",{class:"hljs-attr"},"range"),e(" />")]),e(`
+`)])],-1),U={class:"card"},V=t("h3",null,"Date Limit",-1),A=t("p",null,[e("Use "),t("code",null,"min"),e(" and "),t("code",null,"max"),e(" prop to allow the maximum and minimum date, and use "),t("code",null,"allowed-dates"),e(" prop to limit the dates that can be selected.")],-1),N=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-tag"},[e("<"),t("span",{class:"hljs-name"},"var-date-picker"),e(`
+  `),t("span",{class:"hljs-attr"},"v-model"),e("="),t("span",{class:"hljs-string"},'"date"'),e(`
   `),t("span",{class:"hljs-attr"},"min"),e("="),t("span",{class:"hljs-string"},'"2020-10-15"'),e(`
-  `),t("span",{class:"hljs-attr"},"max"),e("="),t("span",{class:"hljs-string"},'"2021-01-15"'),e(` 
+  `),t("span",{class:"hljs-attr"},"max"),e("="),t("span",{class:"hljs-string"},'"2021-01-15"'),e(`
   `),t("span",{class:"hljs-attr"},":allowed-dates"),e("="),t("span",{class:"hljs-string"},'"allowedDates"'),e(`
 />`)]),e(`
 `)])],-1),B=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),t("span",{class:"hljs-keyword"},"import"),e(" { ref } "),t("span",{class:"hljs-keyword"},"from"),e(),t("span",{class:"hljs-string"},"'vue'"),e(`
@@ -32,7 +32,7 @@ createApp().use(DatePicker)
     `),t("span",{class:"hljs-keyword"},"const"),e(" allowedDates = "),t("span",{class:"hljs-function"},[e("("),t("span",{class:"hljs-params"},"val"),e(") =>")]),e(` {
       `),t("span",{class:"hljs-keyword"},"return"),e(),t("span",{class:"hljs-built_in"},"parseInt"),e("(val.split("),t("span",{class:"hljs-string"},"'-'"),e(")["),t("span",{class:"hljs-number"},"2"),e("], "),t("span",{class:"hljs-number"},"10"),e(") % "),t("span",{class:"hljs-number"},"2"),e(" === "),t("span",{class:"hljs-number"},"1"),e(`
     }
-    
+
     `),t("span",{class:"hljs-keyword"},"return"),e(` {
       date,
       allowedDates,
@@ -71,7 +71,7 @@ createApp().use(DatePicker)
     `),t("span",{class:"hljs-keyword"},"const"),e(" change = "),t("span",{class:"hljs-function"},[e("("),t("span",{class:"hljs-params"},"date"),e(") =>")]),e(` {
       `),t("span",{class:"hljs-built_in"},"console"),e(`.log(date)
     }
-    
+
     `),t("span",{class:"hljs-keyword"},"return"),e(` {
       date,
       change,
