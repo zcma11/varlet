@@ -7,7 +7,7 @@ import{_ as e}from"./elevation.9adcc0d7.js";import{e as c,o as p,c as r,a as s,i
   })
   app.use(Varlet).mount(`),s("span",{class:"hljs-string"},"'#app'"),a(`)
 `)]),s("span",{class:"hljs-tag"},[a("</"),s("span",{class:"hljs-name"},"script"),a(">")]),a(`
-`)])],-1),g={class:"card"},f=s("h3",null,"Webpack/Vite",-1),k=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-meta"},"#"),s("span",{class:"bash"}," \u901A\u8FC7 npm \u6216 yarn \u5B89\u88C5 \u6216 pnpm\u5B89\u88C5"),a(`
+`)])],-1),g={class:"card"},f=s("h3",null,"Webpack/Vite",-1),k=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-meta"},"#"),s("span",{class:"bash"}," \u901A\u8FC7 npm \u6216 yarn \u5B89\u88C5 \u6216 pnpm \u5B89\u88C5"),a(`
 `),s("span",{class:"hljs-meta"},`
 #`),s("span",{class:"bash"}," npm"),a(`
 npm i @varlet/ui -S
