@@ -8,7 +8,7 @@ createApp().use(TimePicker)
 `),t("span",{class:"hljs-keyword"},"export"),e(),t("span",{class:"hljs-keyword"},"default"),e(` {
   `),t("span",{class:"hljs-function"},[t("span",{class:"hljs-title"},"setup"),e("("),t("span",{class:"hljs-params"}),e(")")]),e(` {
     `),t("span",{class:"hljs-keyword"},"const"),e(" date = ref("),t("span",{class:"hljs-string"},"'11:20'"),e(`)
-    
+
     `),t("span",{class:"hljs-keyword"},"return"),e(` {
       date
     }
@@ -42,7 +42,7 @@ createApp().use(TimePicker)
         `),t("span",{class:"hljs-keyword"},"return"),e(" second % "),t("span",{class:"hljs-number"},"2"),e(" !== "),t("span",{class:"hljs-number"},"0"),e(`
       },
     }
-    
+
     `),t("span",{class:"hljs-keyword"},"return"),e(` {
       date,
       allowedTime
