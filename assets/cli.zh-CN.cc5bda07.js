@@ -136,7 +136,8 @@ varlet-cli test -wa
     ]
   }
 }
-`)])],-1),ds=s("p",null,[t("\u521B\u5EFA "),s("code",null,".prettierignore")],-1),os=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),t(`// .prettierignore
+`)])],-1),ds=s("p",null,"\u6302\u8F7D\u94A9\u5B50",-1),os=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),t(`npx simple-git-hooks
+`)])],-1),rs=s("p",null,[t("\u521B\u5EFA "),s("code",null,".prettierignore")],-1),hs=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),t(`// .prettierignore
 coverage/**
 es/**
 umd/**
@@ -144,7 +145,7 @@ site/**
 public/**
 src/*/__tests__/**
 *.md
-`)])],-1),rs={class:"card"},hs=s("h3",null,"typescript",-1),is=s("p",null,[t("\u521B\u5EFA "),s("code",null,"tsconfig.json")],-1),ps=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),t(`{
+`)])],-1),is={class:"card"},ps=s("h3",null,"typescript",-1),js=s("p",null,[t("\u521B\u5EFA "),s("code",null,"tsconfig.json")],-1),us=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),t(`{
   `),s("span",{class:"hljs-attr"},'"compilerOptions"'),t(`: {
     `),s("span",{class:"hljs-attr"},'"strict"'),t(": "),s("span",{class:"hljs-literal"},"true"),t(`,
     `),s("span",{class:"hljs-attr"},'"downlevelIteration"'),t(": "),s("span",{class:"hljs-literal"},"true"),t(`,
@@ -157,4 +158,4 @@ src/*/__tests__/**
     `),s("span",{class:"hljs-attr"},'"jsx"'),t(": "),s("span",{class:"hljs-string"},'"preserve"'),t(`
   }
 }
-`)])],-1),js=s("h4",null,"\u53D1\u5E03\u524D\u6CE8\u610F",-1),us=s("ol",null,[s("li",null,[s("code",null,"npm"),t(" \u7684\u4ED3\u5E93\u6E90\u5FC5\u987B\u6307\u5411 "),s("code",null,"npm"),t(" \u5B98\u65B9\u955C\u50CF")]),s("li",null,[t("\u6267\u884C "),s("code",null,"npm login"),t(" \u8FDB\u884C\u767B\u5F55")])],-1);function gs(_s,ms,bs,fs,vs,ys){const l=d("var-site-code-example");return o(),r("div",i,[p,s("div",j,[u,g,e(l,null,{default:n(()=>[_]),_:1}),m]),b,s("div",f,[v,e(l,null,{default:n(()=>[y]),_:1}),k,e(l,null,{default:n(()=>[x]),_:1}),w,e(l,null,{default:n(()=>[C]),_:1}),N,e(l,null,{default:n(()=>[S]),_:1})]),s("div",z,[V,T,e(l,null,{default:n(()=>[M]),_:1}),$,e(l,null,{default:n(()=>[B]),_:1}),E,e(l,null,{default:n(()=>[A]),_:1}),I,e(l,null,{default:n(()=>[L]),_:1}),O,e(l,null,{default:n(()=>[P]),_:1}),D,e(l,null,{default:n(()=>[H]),_:1}),R,e(l,null,{default:n(()=>[F]),_:1}),J,e(l,null,{default:n(()=>[q]),_:1}),G,e(l,null,{default:n(()=>[K]),_:1}),Q,e(l,null,{default:n(()=>[U]),_:1}),W,e(l,null,{default:n(()=>[X]),_:1})]),s("div",Y,[Z,ss,e(l,null,{default:n(()=>[ts]),_:1}),ls,e(l,null,{default:n(()=>[es]),_:1})]),s("div",ns,[cs,e(l,null,{default:n(()=>[as]),_:1}),ds,e(l,null,{default:n(()=>[os]),_:1})]),s("div",rs,[hs,is,e(l,null,{default:n(()=>[ps]),_:1}),js,us])])}var ws=a(h,[["render",gs]]);export{ws as default};
+`)])],-1),gs=s("h4",null,"\u53D1\u5E03\u524D\u6CE8\u610F",-1),_s=s("ol",null,[s("li",null,[s("code",null,"npm"),t(" \u7684\u4ED3\u5E93\u6E90\u5FC5\u987B\u6307\u5411 "),s("code",null,"npm"),t(" \u5B98\u65B9\u955C\u50CF")]),s("li",null,[t("\u6267\u884C "),s("code",null,"npm login"),t(" \u8FDB\u884C\u767B\u5F55")])],-1);function ms(bs,fs,vs,ys,ks,xs){const l=d("var-site-code-example");return o(),r("div",i,[p,s("div",j,[u,g,e(l,null,{default:n(()=>[_]),_:1}),m]),b,s("div",f,[v,e(l,null,{default:n(()=>[y]),_:1}),k,e(l,null,{default:n(()=>[x]),_:1}),w,e(l,null,{default:n(()=>[C]),_:1}),N,e(l,null,{default:n(()=>[S]),_:1})]),s("div",z,[V,T,e(l,null,{default:n(()=>[M]),_:1}),$,e(l,null,{default:n(()=>[B]),_:1}),E,e(l,null,{default:n(()=>[A]),_:1}),I,e(l,null,{default:n(()=>[L]),_:1}),O,e(l,null,{default:n(()=>[P]),_:1}),D,e(l,null,{default:n(()=>[H]),_:1}),R,e(l,null,{default:n(()=>[F]),_:1}),J,e(l,null,{default:n(()=>[q]),_:1}),G,e(l,null,{default:n(()=>[K]),_:1}),Q,e(l,null,{default:n(()=>[U]),_:1}),W,e(l,null,{default:n(()=>[X]),_:1})]),s("div",Y,[Z,ss,e(l,null,{default:n(()=>[ts]),_:1}),ls,e(l,null,{default:n(()=>[es]),_:1})]),s("div",ns,[cs,e(l,null,{default:n(()=>[as]),_:1}),ds,e(l,null,{default:n(()=>[os]),_:1}),rs,e(l,null,{default:n(()=>[hs]),_:1})]),s("div",is,[ps,js,e(l,null,{default:n(()=>[us]),_:1}),gs,_s])])}var Ns=a(h,[["render",ms]]);export{Ns as default};
