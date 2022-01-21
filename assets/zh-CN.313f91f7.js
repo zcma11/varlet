@@ -1,14 +1,14 @@
-import{_ as e}from"./elevation.49b7c3d2.js";import{e as c,o,c as r,a,i as t,j as n,m as s,U as p}from"./vendor.efca09d3.js";const h={components:{}},d={class:"varlet-site-doc"},i=a("h1",null,"Popup",-1),j=a("div",{class:"card"},[a("h3",null,"Intro"),a("p",null,[s("Create a container that can pop up from top, bottom, left, right and center. "),a("code",null,"teleport"),s(" inserts into the end of the "),a("code",null,"body"),s(" by default.")])],-1),m={class:"card"},u=a("h3",null,"Install",-1),g=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-keyword"},"import"),s(" { createApp } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'vue'"),s(`
+import{_ as c}from"./elevation.49b7c3d2.js";import{e,o as r,c as p,a,i as n,j as t,m as s,U as h}from"./vendor.efca09d3.js";const o={components:{}},d={class:"varlet-site-doc"},j=a("h1",null,"\u5F39\u51FA\u5C42",-1),i=a("div",{class:"card"},[a("h3",null,"\u4ECB\u7ECD"),a("p",null,[s("\u521B\u5EFA\u4E00\u4E2A\u53EF\u4EE5\u4ECE\u4E0A\u3001\u4E0B\u3001\u5DE6\u3001\u53F3\u3001\u4E2D\u5FC3\u5F39\u51FA\u7684\u5BB9\u5668\uFF0C\u7528\u4E8E\u5C55\u793A\u4FE1\u606F\u3002\u9ED8\u8BA4\u4F7F\u7528 "),a("code",null,"teleport"),s(" \u63D2\u5165\u5230 "),a("code",null,"body"),s(" \u5C3E\u90E8\u3002")])],-1),m={class:"card"},g=a("h3",null,"\u5F15\u5165",-1),u=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-keyword"},"import"),s(" { createApp } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'vue'"),s(`
 `),a("span",{class:"hljs-keyword"},"import"),s(" { Popup } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'@varlet/ui'"),s(`
 
 createApp().use(Popup)
-`)])],-1),v={class:"card"},b=a("h3",null,"Popup Position",-1),y=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(` 
+`)])],-1),v={class:"card"},b=a("h3",null,"\u5F39\u51FA\u4F4D\u7F6E",-1),y=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
   `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(`
   `),a("span",{class:"hljs-attr"},"type"),s("="),a("span",{class:"hljs-string"},'"primary"'),s(`
   `),a("span",{class:"hljs-attr"},"block"),s(`
   @`),a("span",{class:"hljs-attr"},"click"),s("="),a("span",{class:"hljs-string"},'"center = true"'),s(`
 >`)]),s(`
-  Center Popup
+  \u5C45\u4E2D\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-button"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
   `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(`
@@ -16,83 +16,83 @@ createApp().use(Popup)
   `),a("span",{class:"hljs-attr"},"block"),s(`
   @`),a("span",{class:"hljs-attr"},"click"),s("="),a("span",{class:"hljs-string"},'"bottom = true"'),s(`
 >`)]),s(`
-  Below Popup
+  \u4E0B\u65B9\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-button"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
   `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(`
   `),a("span",{class:"hljs-attr"},"type"),s("="),a("span",{class:"hljs-string"},'"primary"'),s(`
-  `),a("span",{class:"hljs-attr"},"block"),s(` 
+  `),a("span",{class:"hljs-attr"},"block"),s(`
   @`),a("span",{class:"hljs-attr"},"click"),s("="),a("span",{class:"hljs-string"},'"top = true"'),s(`
 >`)]),s(`
-  Above Popup
+  \u4E0A\u65B9\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-button"),s(">")]),s(`
-`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(` 
-  `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(` 
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
+  `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(`
   `),a("span",{class:"hljs-attr"},"type"),s("="),a("span",{class:"hljs-string"},'"primary"'),s(`
   `),a("span",{class:"hljs-attr"},"block"),s(`
   @`),a("span",{class:"hljs-attr"},"click"),s("="),a("span",{class:"hljs-string"},'"left = true"'),s(`
 >`)]),s(`
-  Left Popup
+  \u5DE6\u4FA7\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-button"),s(">")]),s(`
-`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(` 
-  `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(` 
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
+  `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(`
   `),a("span",{class:"hljs-attr"},"type"),s("="),a("span",{class:"hljs-string"},'"primary"'),s(`
-  `),a("span",{class:"hljs-attr"},"block"),s(` 
+  `),a("span",{class:"hljs-attr"},"block"),s(`
   @`),a("span",{class:"hljs-attr"},"click"),s("="),a("span",{class:"hljs-string"},'"right = true"'),s(`
 >`)]),s(`
-  Right Popup
+  \u53F3\u4FA7\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-button"),s(">")]),s(`
 
-// Center Popup
+// \u5C45\u4E2D\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-popup"),s(),a("span",{class:"hljs-attr"},"v-model:show"),s("="),a("span",{class:"hljs-string"},'"center"'),s(">")]),s(`
   `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"block"'),s(">")]),s(`
-    As he came into the window.
-    It was the sound of a crescendo.
-    He came into her apartment.
-    He left the bloodstains on the carpet.
+    \u7D20\u80DA\u52FE\u52D2\u51FA\u9752\u82B1\u7B14\u950B\u6D53\u8F6C\u6DE1,
+    \u74F6\u8EAB\u63CF\u7ED8\u7684\u7261\u4E39\u4E00\u5982\u4F60\u521D\u5986,
+    \u5189\u5189\u6A80\u9999\u900F\u8FC7\u7A97\u5FC3\u4E8B\u6211\u4E86\u7136,
+    \u5BA3\u7EB8\u4E0A\u8D70\u7B14\u81F3\u6B64\u6401\u4E00\u534A\u3002
   `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-popup"),s(">")]),s(`
 
-// Below Popup
+// \u4E0B\u65B9\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-popup"),s(),a("span",{class:"hljs-attr"},"position"),s("="),a("span",{class:"hljs-string"},'"bottom"'),s(),a("span",{class:"hljs-attr"},"v-model:show"),s("="),a("span",{class:"hljs-string"},'"bottom"'),s(">")]),s(`
   `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"block"'),s(">")]),s(`
-    As he came into the window. 
-    It was the sound of a crescendo. 
-    He came into her apartment. 
-    He left the bloodstains on the carpet.
+    \u7D20\u80DA\u52FE\u52D2\u51FA\u9752\u82B1\u7B14\u950B\u6D53\u8F6C\u6DE1,
+    \u74F6\u8EAB\u63CF\u7ED8\u7684\u7261\u4E39\u4E00\u5982\u4F60\u521D\u5986,
+    \u5189\u5189\u6A80\u9999\u900F\u8FC7\u7A97\u5FC3\u4E8B\u6211\u4E86\u7136,
+    \u5BA3\u7EB8\u4E0A\u8D70\u7B14\u81F3\u6B64\u6401\u4E00\u534A\u3002
   `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-popup"),s(">")]),s(`
 
-// Above Popup
+// \u4E0A\u65B9\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-popup"),s(),a("span",{class:"hljs-attr"},"position"),s("="),a("span",{class:"hljs-string"},'"top"'),s(),a("span",{class:"hljs-attr"},"v-model:show"),s("="),a("span",{class:"hljs-string"},'"top"'),s(">")]),s(`
   `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"block"'),s(">")]),s(`
-    As he came into the window.
-    It was the sound of a crescendo.
-    He came into her apartment.
-    He left the bloodstains on the carpet.
+    \u7D20\u80DA\u52FE\u52D2\u51FA\u9752\u82B1\u7B14\u950B\u6D53\u8F6C\u6DE1,
+    \u74F6\u8EAB\u63CF\u7ED8\u7684\u7261\u4E39\u4E00\u5982\u4F60\u521D\u5986,
+    \u5189\u5189\u6A80\u9999\u900F\u8FC7\u7A97\u5FC3\u4E8B\u6211\u4E86\u7136,
+    \u5BA3\u7EB8\u4E0A\u8D70\u7B14\u81F3\u6B64\u6401\u4E00\u534A\u3002
   `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-popup"),s(">")]),s(`
 
-// Left Popup
+// \u5DE6\u4FA7\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-popup"),s(),a("span",{class:"hljs-attr"},"position"),s("="),a("span",{class:"hljs-string"},'"left"'),s(),a("span",{class:"hljs-attr"},"v-model:show"),s("="),a("span",{class:"hljs-string"},'"left"'),s(">")]),s(`
   `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"block"'),s(">")]),s(`
-    As he came into the window.
-    It was the sound of a crescendo.
-    He came into her apartment.
-    He left the bloodstains on the carpet.
+    \u7D20\u80DA\u52FE\u52D2\u51FA\u9752\u82B1\u7B14\u950B\u6D53\u8F6C\u6DE1,
+    \u74F6\u8EAB\u63CF\u7ED8\u7684\u7261\u4E39\u4E00\u5982\u4F60\u521D\u5986,
+    \u5189\u5189\u6A80\u9999\u900F\u8FC7\u7A97\u5FC3\u4E8B\u6211\u4E86\u7136,
+    \u5BA3\u7EB8\u4E0A\u8D70\u7B14\u81F3\u6B64\u6401\u4E00\u534A\u3002
   `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-popup"),s(">")]),s(`
 
-// Right Popup
+// \u53F3\u4FA7\u5F39\u51FA
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-popup"),s(),a("span",{class:"hljs-attr"},"position"),s("="),a("span",{class:"hljs-string"},'"right"'),s(),a("span",{class:"hljs-attr"},"v-model:show"),s("="),a("span",{class:"hljs-string"},'"right"'),s(">")]),s(`
   `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"block"'),s(">")]),s(`
-    As he came into the window.
-    It was the sound of a crescendo.
-    He came into her apartment.
-    He left the bloodstains on the carpet.
+    \u7D20\u80DA\u52FE\u52D2\u51FA\u9752\u82B1\u7B14\u950B\u6D53\u8F6C\u6DE1,
+    \u74F6\u8EAB\u63CF\u7ED8\u7684\u7261\u4E39\u4E00\u5982\u4F60\u521D\u5986,
+    \u5189\u5189\u6A80\u9999\u900F\u8FC7\u7A97\u5FC3\u4E8B\u6211\u4E86\u7136,
+    \u5BA3\u7EB8\u4E0A\u8D70\u7B14\u81F3\u6B64\u6401\u4E00\u534A\u3002
   `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-popup"),s(">")]),s(`
-`)])],-1),f=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-keyword"},"import"),s(" { ref } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'vue'"),s(`
+`)])],-1),k=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-keyword"},"import"),s(" { ref } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'vue'"),s(`
 
 `),a("span",{class:"hljs-keyword"},"export"),s(),a("span",{class:"hljs-keyword"},"default"),s(` {
   `),a("span",{class:"hljs-function"},[a("span",{class:"hljs-title"},"setup"),s("("),a("span",{class:"hljs-params"}),s(")")]),s(` {
@@ -111,7 +111,7 @@ createApp().use(Popup)
     }
   }
 }
-`)])],-1),k=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-selector-class"},".mt-10"),s(` {
+`)])],-1),f=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-selector-class"},".mt-10"),s(` {
   `),a("span",{class:"hljs-attribute"},"margin-top"),s(": "),a("span",{class:"hljs-number"},"10px"),s(`;
 }
 
@@ -119,48 +119,48 @@ createApp().use(Popup)
   `),a("span",{class:"hljs-attribute"},"padding"),s(": "),a("span",{class:"hljs-number"},"20px"),s(),a("span",{class:"hljs-number"},"24px"),s(`;
   `),a("span",{class:"hljs-attribute"},"width"),s(": "),a("span",{class:"hljs-number"},"250px"),s(`;
 }
-`)])],-1),w={class:"card"},_=a("h3",null,"Overlay Style",-1),P=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
+`)])],-1),_={class:"card"},w=a("h3",null,"\u906E\u7F69\u5C42\u6837\u5F0F",-1),x=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
   `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(`
   `),a("span",{class:"hljs-attr"},"type"),s("="),a("span",{class:"hljs-string"},'"primary"'),s(`
-  `),a("span",{class:"hljs-attr"},"block"),s(` 
+  `),a("span",{class:"hljs-attr"},"block"),s(`
   @`),a("span",{class:"hljs-attr"},"click"),s("="),a("span",{class:"hljs-string"},'"overlayClass = true"'),s(`
 >`)]),s(`
-  Overlay Style
+  \u906E\u7F69\u5C42 class
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-button"),s(">")]),s(`
-`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(` 
+`),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
   `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(`
   `),a("span",{class:"hljs-attr"},"type"),s("="),a("span",{class:"hljs-string"},'"primary"'),s(`
-  `),a("span",{class:"hljs-attr"},"block"),s(` 
+  `),a("span",{class:"hljs-attr"},"block"),s(`
   @`),a("span",{class:"hljs-attr"},"click"),s("="),a("span",{class:"hljs-string"},'"overlayStyle = true"'),s(`
 >`)]),s(`
-  Overlay Style
+  \u906E\u7F69\u5C42 style
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-button"),s(">")]),s(`
 
-// Overlay Class
+// \u906E\u7F69\u5C42 class
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-popup"),s(` 
   `),a("span",{class:"hljs-attr"},"overlay-class"),s("="),a("span",{class:"hljs-string"},'"custom-overlay"'),s(` 
   `),a("span",{class:"hljs-attr"},"v-model:show"),s("="),a("span",{class:"hljs-string"},'"overlayClass"'),s(`
 >`)]),s(`
   `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"block"'),s(">")]),s(`
-    As he came into the window.
-    It was the sound of a crescendo.
-    He came into her apartment.
-    He left the bloodstains on the carpet.
+    \u7D20\u80DA\u52FE\u52D2\u51FA\u9752\u82B1\u7B14\u950B\u6D53\u8F6C\u6DE1,
+    \u74F6\u8EAB\u63CF\u7ED8\u7684\u7261\u4E39\u4E00\u5982\u4F60\u521D\u5986,
+    \u5189\u5189\u6A80\u9999\u900F\u8FC7\u7A97\u5FC3\u4E8B\u6211\u4E86\u7136,
+    \u5BA3\u7EB8\u4E0A\u8D70\u7B14\u81F3\u6B64\u6401\u4E00\u534A\u3002
   `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-popup"),s(">")]),s(`
 
-// Overlay style
+// \u906E\u7F69\u5C42 style
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-popup"),s(` 
   `),a("span",{class:"hljs-attr"},":overlay-style"),s("="),a("span",{class:"hljs-string"},`"{
-    backgroundColor: 'rgba(0, 0, 0, 0.3)' 
+    backgroundColor: 'rgba(0, 0, 0, 0.3)'
   }"`),s(`
   `),a("span",{class:"hljs-attr"},"v-model:show"),s("="),a("span",{class:"hljs-string"},'"overlayStyle"'),s(`
 >`)]),s(`
   `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"block"'),s(">")]),s(`
-    As he came into the window.
-    It was the sound of a crescendo.
-    He came into her apartment.
-    He left the bloodstains on the carpet.
+    \u7D20\u80DA\u52FE\u52D2\u51FA\u9752\u82B1\u7B14\u950B\u6D53\u8F6C\u6DE1,
+    \u74F6\u8EAB\u63CF\u7ED8\u7684\u7261\u4E39\u4E00\u5982\u4F60\u521D\u5986,
+    \u5189\u5189\u6A80\u9999\u900F\u8FC7\u7A97\u5FC3\u4E8B\u6211\u4E86\u7136,
+    \u5BA3\u7EB8\u4E0A\u8D70\u7B14\u81F3\u6B64\u6401\u4E00\u534A\u3002
   `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-popup"),s(">")]),s(`
 `)])],-1),S=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-keyword"},"import"),s(" { ref } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'vue'"),s(`
@@ -176,7 +176,7 @@ createApp().use(Popup)
     }
   }
 }
-`)])],-1),x=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-comment"},"/* normal css */"),s(`
+`)])],-1),C=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-comment"},"/* normal css */"),s(`
 `),a("span",{class:"hljs-selector-class"},".custom-overlay"),s(` {
   `),a("span",{class:"hljs-attribute"},"background"),s(": "),a("span",{class:"hljs-built_in"},"rgba"),s("("),a("span",{class:"hljs-number"},"0"),s(", "),a("span",{class:"hljs-number"},"0"),s(", "),a("span",{class:"hljs-number"},"0"),s(", "),a("span",{class:"hljs-number"},"0.3"),s(`);
 }
@@ -190,13 +190,13 @@ createApp().use(Popup)
   `),a("span",{class:"hljs-attribute"},"padding"),s(": "),a("span",{class:"hljs-number"},"20px"),s(),a("span",{class:"hljs-number"},"24px"),s(`;
   `),a("span",{class:"hljs-attribute"},"width"),s(": "),a("span",{class:"hljs-number"},"250px"),s(`;
 }
-`)])],-1),H={class:"card"},A=a("h3",null,"Events",-1),C=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
+`)])],-1),N={class:"card"},P=a("h3",null,"\u6CE8\u518C\u4E8B\u4EF6",-1),V=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-button"),s(`
   `),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"mt-10"'),s(`
   `),a("span",{class:"hljs-attr"},"type"),s("="),a("span",{class:"hljs-string"},'"primary"'),s(`
   `),a("span",{class:"hljs-attr"},"block"),s(`
   @`),a("span",{class:"hljs-attr"},"click"),s("="),a("span",{class:"hljs-string"},'"event = true"'),s(`
 >`)]),s(`
-  Event
+  \u6CE8\u518C\u4E8B\u4EF6
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-button"),s(">")]),s(`
 
 `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"var-popup"),s(`
@@ -207,13 +207,13 @@ createApp().use(Popup)
   @`),a("span",{class:"hljs-attr"},"closed"),s("="),a("span",{class:"hljs-string"},`"() => Snackbar.error('closed')"`),s(`
 >`)]),s(`
   `),a("span",{class:"hljs-tag"},[s("<"),a("span",{class:"hljs-name"},"div"),s(),a("span",{class:"hljs-attr"},"class"),s("="),a("span",{class:"hljs-string"},'"block"'),s(">")]),s(`
-    As he came into the window.
-    It was the sound of a crescendo.
-    He came into her apartment.
-    He left the bloodstains on the carpet.
+    \u7D20\u80DA\u52FE\u52D2\u51FA\u9752\u82B1\u7B14\u950B\u6D53\u8F6C\u6DE1,
+    \u74F6\u8EAB\u63CF\u7ED8\u7684\u7261\u4E39\u4E00\u5982\u4F60\u521D\u5986,
+    \u5189\u5189\u6A80\u9999\u900F\u8FC7\u7A97\u5FC3\u4E8B\u6211\u4E86\u7136,
+    \u5BA3\u7EB8\u4E0A\u8D70\u7B14\u81F3\u6B64\u6401\u4E00\u534A\u3002
   `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"div"),s(">")]),s(`
 `),a("span",{class:"hljs-tag"},[s("</"),a("span",{class:"hljs-name"},"var-popup"),s(">")]),s(`
-`)])],-1),I=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-keyword"},"import"),s(" { ref } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'vue'"),s(`
+`)])],-1),$=a("pre",{class:"hljs"},[a("code",null,[a("link",{rel:"stylesheet",href:"./highlight.css"}),a("span",{class:"hljs-keyword"},"import"),s(" { ref } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'vue'"),s(`
 `),a("span",{class:"hljs-keyword"},"import"),s(" { Snackbar } "),a("span",{class:"hljs-keyword"},"from"),s(),a("span",{class:"hljs-string"},"'@varlet/ui'"),s(`
 
 `),a("span",{class:"hljs-keyword"},"export"),s(),a("span",{class:"hljs-keyword"},"default"),s(` {
@@ -226,4 +226,4 @@ createApp().use(Popup)
     }
   }
 }
-`)])],-1),T=p('<h2>API</h2><div class="card"><h3>Props</h3><table><thead><tr><th>Prop</th><th>Description</th><th>Type</th><th>Default</th></tr></thead><tbody><tr><td><code>v-model:show</code></td><td>Whether to display the Popup</td><td><em>boolean</em></td><td><code>false</code></td></tr><tr><td><code>position</code></td><td>Popup position with optional value of <code>top</code> <code>bottom</code> <code>right</code> <code>left</code> <code>center</code></td><td><em>string</em></td><td><code>center</code></td></tr><tr><td><code>overlay</code></td><td>Whether to display the overlay</td><td><em>boolean</em></td><td><code>true</code></td></tr><tr><td><code>overlay-class</code></td><td>Custom overlay class</td><td><em>string</em></td><td><code>-</code></td></tr><tr><td><code>overlay-style</code></td><td>Custom overlay style</td><td><em>string</em></td><td><code>-</code></td></tr><tr><td><code>transition</code></td><td>Transition animation name</td><td><em>string</em></td><td><code>-</code></td></tr><tr><td><code>lock-scroll</code></td><td>Whether to disable scrolling penetration, scrolling the Popup when disabled will not cause the body to scroll</td><td><em>boolean</em></td><td><code>true</code></td></tr><tr><td><code>close-on-click-overlay</code></td><td>Whether to click the overlay to close the Popup</td><td><em>boolean</em></td><td><code>true</code></td></tr><tr><td><code>teleport</code></td><td>The location of the Popup to mount</td><td><em>TeleportProps[\u2018to\u2019]</em></td><td><code>-</code></td></tr></tbody></table></div><div class="card"><h3>Events</h3><table><thead><tr><th>Event</th><th>Description</th><th>Arguments</th></tr></thead><tbody><tr><td><code>open</code></td><td>Triggered when the Popup is open</td><td><code>-</code></td></tr><tr><td><code>opened</code></td><td>Triggered when the Popup open-animation ends</td><td><code>-</code></td></tr><tr><td><code>close</code></td><td>Triggered when the Popup is close</td><td><code>-</code></td></tr><tr><td><code>closed</code></td><td>Triggered when the Popup close-animation ends</td><td><code>-</code></td></tr><tr><td><code>click-overlay</code></td><td>Triggered when you click on overlay</td><td><code>-</code></td></tr></tbody></table></div><div class="card"><h3>Slots</h3><table><thead><tr><th>Slot</th><th>Description</th><th>Arguments</th></tr></thead><tbody><tr><td><code>default</code></td><td>Popup content</td><td><code>-</code></td></tr></tbody></table></div><div class="card"><h3>Style Variables</h3><p>Here are the CSS variables used by the component, Styles can be customized using <a href="#/en-US/style-provider">StyleProvider</a></p><table><thead><tr><th>Variable</th><th>Default</th></tr></thead><tbody><tr><td><code>--popup-overlay-background-color</code></td><td><code>rgba(0, 0, 0, .6)</code></td></tr><tr><td><code>--popup-content-background-color</code></td><td><code>#fff</code></td></tr></tbody></table></div>',5);function V(B,D,E,O,N,W){const l=c("var-site-code-example");return o(),r("div",d,[i,j,a("div",m,[u,t(l,null,{default:n(()=>[g]),_:1})]),a("div",v,[b,t(l,null,{default:n(()=>[y]),_:1}),t(l,null,{default:n(()=>[f]),_:1}),t(l,null,{default:n(()=>[k]),_:1})]),a("div",w,[_,t(l,null,{default:n(()=>[P]),_:1}),t(l,null,{default:n(()=>[S]),_:1}),t(l,null,{default:n(()=>[x]),_:1})]),a("div",H,[A,t(l,null,{default:n(()=>[C]),_:1}),t(l,null,{default:n(()=>[I]),_:1})]),T])}var L=e(h,[["render",V]]);export{L as default};
+`)])],-1),A=h('<h2>API</h2><div class="card"><h3>\u5C5E\u6027</h3><table><thead><tr><th>\u53C2\u6570</th><th>\u8BF4\u660E</th><th>\u7C7B\u578B</th><th>\u9ED8\u8BA4\u503C</th></tr></thead><tbody><tr><td><code>v-model:show</code></td><td>\u662F\u5426\u663E\u793A\u5F39\u51FA\u5C42</td><td><em>boolean</em></td><td><code>false</code></td></tr><tr><td><code>position</code></td><td>\u5F39\u51FA\u4F4D\u7F6E\uFF0C\u53EF\u9009\u503C\u4E3A <code>top</code> <code>bottom</code> <code>right</code> <code>left</code> <code>center</code></td><td><em>string</em></td><td><code>center</code></td></tr><tr><td><code>overlay</code></td><td>\u662F\u5426\u663E\u793A\u906E\u7F69\u5C42</td><td><em>boolean</em></td><td><code>true</code></td></tr><tr><td><code>overlay-class</code></td><td>\u81EA\u5B9A\u4E49\u906E\u7F69\u5C42\u7684 class</td><td><em>string</em></td><td><code>-</code></td></tr><tr><td><code>overlay-style</code></td><td>\u81EA\u5B9A\u4E49\u906E\u7F69\u5C42\u7684 style</td><td><em>object</em></td><td><code>-</code></td></tr><tr><td><code>transition</code></td><td>\u8FC7\u5EA6\u52A8\u753B\u7684\u540D\u79F0</td><td><em>string</em></td><td><code>-</code></td></tr><tr><td><code>lock-scroll</code></td><td>\u662F\u5426\u7981\u6B62\u6EDA\u52A8\u7A7F\u900F\uFF0C\u7981\u6B62\u65F6\u6EDA\u52A8\u5F39\u51FA\u5C42\u4E0D\u4F1A\u5F15\u53D1 body \u7684\u6EDA\u52A8</td><td><em>boolean</em></td><td><code>true</code></td></tr><tr><td><code>close-on-click-overlay</code></td><td>\u662F\u5426\u70B9\u51FB\u906E\u7F69\u5C42\u5173\u95ED\u5F39\u51FA\u5C42</td><td><em>boolean</em></td><td><code>true</code></td></tr><tr><td><code>teleport</code></td><td>\u5F39\u51FA\u5C42\u6302\u8F7D\u7684\u4F4D\u7F6E</td><td><em>TeleportProps[\u2018to\u2019]</em></td><td><code>-</code></td></tr></tbody></table></div><div class="card"><h3>\u4E8B\u4EF6</h3><table><thead><tr><th>\u4E8B\u4EF6\u540D</th><th>\u8BF4\u660E</th><th>\u53C2\u6570</th></tr></thead><tbody><tr><td><code>open</code></td><td>\u6253\u5F00\u5F39\u51FA\u5C42\u65F6\u89E6\u53D1</td><td><code>-</code></td></tr><tr><td><code>opened</code></td><td>\u6253\u5F00\u5F39\u51FA\u5C42\u52A8\u753B\u7ED3\u675F\u65F6\u89E6\u53D1</td><td><code>-</code></td></tr><tr><td><code>close</code></td><td>\u5173\u95ED\u5F39\u51FA\u5C42\u65F6\u89E6\u53D1</td><td><code>-</code></td></tr><tr><td><code>closed</code></td><td>\u5173\u95ED\u5F39\u51FA\u5C42\u52A8\u753B\u7ED3\u675F\u65F6\u89E6\u53D1</td><td><code>-</code></td></tr><tr><td><code>click-overlay</code></td><td>\u70B9\u51FB\u906E\u7F69\u5C42\u65F6\u89E6\u53D1</td><td><code>-</code></td></tr></tbody></table></div><div class="card"><h3>\u63D2\u69FD</h3><table><thead><tr><th>\u63D2\u69FD\u540D</th><th>\u8BF4\u660E</th><th>\u53C2\u6570</th></tr></thead><tbody><tr><td><code>default</code></td><td>\u5F39\u51FA\u5C42\u5185\u5BB9</td><td><code>-</code></td></tr></tbody></table></div><div class="card"><h3>\u6837\u5F0F\u53D8\u91CF</h3><p>\u4EE5\u4E0B\u4E3A\u7EC4\u4EF6\u4F7F\u7528\u7684 css \u53D8\u91CF\uFF0C\u53EF\u4EE5\u4F7F\u7528 <a href="#/zh-CN/style-provider">StyleProvider \u7EC4\u4EF6</a>\u8FDB\u884C\u6837\u5F0F\u5B9A\u5236</p><table><thead><tr><th>\u53D8\u91CF\u540D</th><th>\u9ED8\u8BA4\u503C</th></tr></thead><tbody><tr><td><code>--popup-overlay-background-color</code></td><td><code>rgba(0, 0, 0, .6)</code></td></tr><tr><td><code>--popup-content-background-color</code></td><td><code>#fff</code></td></tr></tbody></table></div>',5);function B(z,T,E,I,U,q){const l=e("var-site-code-example");return r(),p("div",d,[j,i,a("div",m,[g,n(l,null,{default:t(()=>[u]),_:1})]),a("div",v,[b,n(l,null,{default:t(()=>[y]),_:1}),n(l,null,{default:t(()=>[k]),_:1}),n(l,null,{default:t(()=>[f]),_:1})]),a("div",_,[w,n(l,null,{default:t(()=>[x]),_:1}),n(l,null,{default:t(()=>[S]),_:1}),n(l,null,{default:t(()=>[C]),_:1})]),a("div",N,[P,n(l,null,{default:t(()=>[V]),_:1}),n(l,null,{default:t(()=>[$]),_:1})]),A])}var G=c(o,[["render",B]]);export{G as default};
