@@ -28,7 +28,7 @@ createApp().use(Lazy, {
     `),s("span",{class:"hljs-string"},"'touchmove'"),t(`
   ],
   `),s("span",{class:"hljs-function"},[s("span",{class:"hljs-title"},"filter"),t("("),s("span",{class:"hljs-params"},"lazy"),t(")")]),t(` {
-    `),s("span",{class:"hljs-comment"},"// \u53EF\u4EE5\u8BBF\u95EE lazy \u4E0A\u4E0B\u6587\u7684\u6240\u6709\u5C5E\u6027,\u6267\u884C\u4E00\u4E9B\u5C5E\u6027\u62E6\u622A, "),t(`
+    `),s("span",{class:"hljs-comment"},"// \u53EF\u4EE5\u8BBF\u95EE lazy \u4E0A\u4E0B\u6587\u7684\u6240\u6709\u5C5E\u6027,\u6267\u884C\u4E00\u4E9B\u5C5E\u6027\u62E6\u622A,"),t(`
     `),s("span",{class:"hljs-comment"},"// \u6BD4\u5982\u7B80\u5355\u4FEE\u6539\u6240\u6709\u7684\u56FE\u7247\u5730\u5740 http -> https"),t(`
     lazy.src.replace(`),s("span",{class:"hljs-string"},"'http://'"),t(", "),s("span",{class:"hljs-string"},"'https://'"),t(`)
   }
